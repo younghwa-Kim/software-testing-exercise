@@ -1,1 +1,1 @@
-# Software testing hands-on for CS350.
+# Software testing hands-on for CS350
