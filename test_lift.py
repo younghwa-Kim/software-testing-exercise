@@ -22,3 +22,12 @@ def test_go_up():
     lift.go_up()  # should be at top
     lift.go_up()  # should stay at top
     assert lift.get_current_floor() == 3
+
+def test_go_down():
+    #Create lift object
+    lift = Lift(3)
+    #INcrease current_floor > 0
+    lift.go_up()
+    lift.go_up()
+    lift.go_down()
+    assert lift.get_current_floor() == 1
